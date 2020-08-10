@@ -29,7 +29,7 @@ public class MSW_Steps extends support {
 	
 	@Before
 	public void setup() {
-	System.out.println("Launch URL of Website");
+	System.out.println("LAUNCH URL of Website");
 	
 	}
 	
