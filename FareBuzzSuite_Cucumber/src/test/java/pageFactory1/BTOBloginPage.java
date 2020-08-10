@@ -9,6 +9,8 @@ public class BTOBloginPage {
 	
 	WebDriver driver;
 	
+	
+	
 	public BTOBloginPage(WebDriver driver)
 	{
 		this.driver=driver;

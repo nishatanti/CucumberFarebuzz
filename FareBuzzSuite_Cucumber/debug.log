@@ -109,3 +109,5 @@
 [0810/002248.606:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
 [0810/002248.606:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
 [0810/002248.606:ERROR:exception_snapshot_win.cc(98)] thread ID 4460 not found in process
+[0810/214008.422:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0810/214008.424:ERROR:exception_snapshot_win.cc(98)] thread ID 7088 not found in process

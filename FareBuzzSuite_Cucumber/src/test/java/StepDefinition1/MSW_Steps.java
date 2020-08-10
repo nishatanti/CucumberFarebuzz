@@ -42,8 +42,7 @@ public class MSW_Steps extends support {
 			File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);			
 			FileUtils.copyFile(scrFile, new File("D:\\EclipseProjectWorkspace\\FareBuzzSuite_Cucumber\\Screenshots\\Test.png"));		
 			}
-		driver.close();
-		driver.quit();
+		
 	
 	}
 	
@@ -94,6 +93,8 @@ public class MSW_Steps extends support {
 		msw = new MSW_Page(driver);
 		By XPATH = By.xpath("//button[@class='cta-1st select__cta']");
 		supp.ExplicitwaitLocator2(driver, XPATH, 40);
+		driver.close();
+		driver.quit();
 	}
 
 
