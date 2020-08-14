@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-features="src/test/resources/Features/BTOB_login.feature",
+features="src/test/resources/Features/ISW_Car.feature",
 glue= {"StepDefinition1"},
 monochrome=true,
 plugin = {"pretty","html:target/htmlReports"},

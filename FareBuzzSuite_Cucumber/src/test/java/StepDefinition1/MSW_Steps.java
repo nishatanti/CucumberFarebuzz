@@ -27,24 +27,24 @@ public class MSW_Steps extends support {
 	MSW_Page msw;
 	support supp = new support();
 	
-	@Before
-	public void setup() {
-	System.out.println("LAUNCH URL OF Website");
-	
-	}
-	
-	@After	
-	public void teardown(Scenario scenario) throws IOException {
-		
-		System.out.println("close browser");
-		if (scenario.isFailed()) {
-			
-			File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);			
-			FileUtils.copyFile(scrFile, new File("D:\\EclipseProjectWorkspace\\FareBuzzSuite_Cucumber\\Screenshots\\Test.png"));		
-			}
-		
-	
-	}
+//	@Before
+//	public void setup() {
+//	System.out.println("LAUNCH URL OF Website");
+//	
+//	}
+//	
+//	@After	
+//	public void teardown(Scenario scenario) throws IOException {
+//		
+//		System.out.println("close browser");
+//		if (scenario.isFailed()) {
+//			
+//			File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);			
+//			FileUtils.copyFile(scrFile, new File("D:\\EclipseProjectWorkspace\\FareBuzzSuite_Cucumber\\Screenshots\\Test.png"));		
+//			}
+//		
+//	
+//	}
 	
 	
 	@Given("User is on ListingPage")
