@@ -25,13 +25,13 @@ public class BTOBloginPage {
 	@FindBy(xpath ="(//a[@href='#TASignIn'])[1]")
 	WebElement tabTravelAgent;
 	
-	@FindBy(id="ctl16_LoginTopMenu1_UserLogin_txtUsername")
+	@FindBy(id="ctl17_LoginTopMenu1_UserLogin_txtUsername")
 	WebElement txt_username;
 
-	@FindBy(id="ctl16_LoginTopMenu1_UserLogin_txtPassword")
+	@FindBy(id="ctl17_LoginTopMenu1_UserLogin_txtPassword")
 	WebElement txt_password;
 	
-	@FindBy(id="ctl16_LoginTopMenu1_UserLogin_cmdLogin")
+	@FindBy(id="ctl17_LoginTopMenu1_UserLogin_cmdLogin")
 	WebElement btnB2BSignIn;
 	
 	

@@ -82,8 +82,8 @@ public class BTOB_loginStepsPF {
 		List<Map<String, String>> rows = table.asMaps(String.class,String.class);
 		for (Map<String, String> data : rows)
 		{
-			driver.findElement(By.id("ctl16_LoginTopMenu1_UserLogin_txtUsername")).sendKeys(data.get("username"));
-			driver.findElement(By.id("ctl16_LoginTopMenu1_UserLogin_txtPassword")).sendKeys(data.get("password"));
+			driver.findElement(By.id("ctl17_LoginTopMenu1_UserLogin_txtUsername")).sendKeys(data.get("username"));
+			driver.findElement(By.id("ctl17_LoginTopMenu1_UserLogin_txtPassword")).sendKeys(data.get("password"));
 			login.click_btnB2BSignIn();
 
 			driver.findElement(By.xpath("//img[@class='dropbtn1']")).click();
