@@ -48,8 +48,9 @@ public class ISW_Steps extends support {
 	@Given("User is on HomePage")
 	public void user_is_on_HomePage() throws IOException {
 		//try {
-		System.setProperty("webdriver.chrome.driver", "D:\\EclipseProjectWorkspace\\FareBuzzSuite_Cucumber\\Drivers\\ChromeDriver\\chromedriver.exe");
-	    driver = new ChromeDriver();
+		//System.setProperty("webdriver.chrome.driver", "D:\\EclipseProjectWorkspace\\FareBuzzSuite_Cucumber\\Drivers\\ChromeDriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","D:\\EclipseProjectWorkspace\\FareBuzzSuite_Cucumber\\Drivers\\ChromeDriver1\\chromedriver.exe");
+		driver = new ChromeDriver();
 	    driver.get("https://farebuzz.com");
 	    driver.manage().window().maximize();
 	    driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);	    

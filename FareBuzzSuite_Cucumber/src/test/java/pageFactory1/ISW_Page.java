@@ -118,16 +118,16 @@ WebDriver driver;
     public void enter_txtDeptDate() {
     	txtDeptDate.click();
     	txtDeptDate.clear();
-    	txtDeptDate.sendKeys("8/20/2020");
+    	txtDeptDate.sendKeys("9/20/2020");
     }
     
     public void enter_txtReturnDate() {
     	txtReturnDate.clear();
-    	txtReturnDate.sendKeys("8/25/2020");
+    	txtReturnDate.sendKeys("9/25/2020");
     }
     
     public void enter_txtDeptDate2() {
-    	txtDeptDate2.sendKeys("8/30/2020");
+    	txtDeptDate2.sendKeys("9/30/2020");
     }
          
     public void enter_ddlAdults() {
